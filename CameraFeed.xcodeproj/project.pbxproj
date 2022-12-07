@@ -13,6 +13,7 @@
 		8244802A294071640070EDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82448028294071640070EDBB /* Main.storyboard */; };
 		8244802C294071680070EDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8244802B294071680070EDBB /* Assets.xcassets */; };
 		8244802F294071680070EDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8244802D294071680070EDBB /* LaunchScreen.storyboard */; };
+		8244803729407D6C0070EDBB /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244803629407D6B0070EDBB /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8244802B294071680070EDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8244802E294071680070EDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82448030294071680070EDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8244803629407D6B0070EDBB /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				82448022294071640070EDBB /* AppDelegate.swift */,
 				82448024294071640070EDBB /* SceneDelegate.swift */,
 				82448026294071640070EDBB /* ViewController.swift */,
+				8244803629407D6B0070EDBB /* CameraController.swift */,
 				82448028294071640070EDBB /* Main.storyboard */,
 				8244802B294071680070EDBB /* Assets.xcassets */,
 				8244802D294071680070EDBB /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				82448027294071640070EDBB /* ViewController.swift in Sources */,
 				82448023294071640070EDBB /* AppDelegate.swift in Sources */,
+				8244803729407D6C0070EDBB /* CameraController.swift in Sources */,
 				82448025294071640070EDBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

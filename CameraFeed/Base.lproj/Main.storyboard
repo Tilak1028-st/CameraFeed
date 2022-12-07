@@ -30,6 +30,9 @@
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Flash Off Icon"/>
+                                                <connections>
+                                                    <action selector="toggleFlash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WcL-bX-jUS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyc-2M-ex8">
                                                 <rect key="frame" x="354" y="112" width="44" height="44"/>
@@ -40,6 +43,9 @@
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Rear Camera Icon"/>
+                                                <connections>
+                                                    <action selector="switchCameras:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBq-M6-EcA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VME-Xh-iTV">
                                                 <rect key="frame" x="16" y="794" width="48" height="44"/>
@@ -82,6 +88,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="captureImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zy8-7o-oc2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33332619389991874" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -106,6 +115,7 @@
                     </view>
                     <connections>
                         <outlet property="cameraPreviewView" destination="6ga-wK-QQA" id="QDH-PE-e5G"/>
+                        <outlet property="captureButton" destination="G91-zu-EGk" id="fmc-ct-s1q"/>
                         <outlet property="photoModeButton" destination="ode-0Q-wCA" id="DBL-EE-ex3"/>
                         <outlet property="toggleFlashButton" destination="HAI-kf-uyt" id="zfy-r8-4To"/>
                         <outlet property="toogleCameraButton" destination="Iyc-2M-ex8" id="kRR-R5-W8e"/>
